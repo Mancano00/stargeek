@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --roxo: rgba(222, 0, 253, 0.6);
+    --fundo: linear-gradient(237.94deg, #0D0D0D 20.01%, #4212FF 100%);
+    --botao: linear-gradient(180deg, #BD00FF 0%, #1AF0FE 100%);
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header > div >a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+body{
+    text-align: center;
+    background: var(--fundo);
+    padding: 60px;
+}
+img{
+    margin-bottom: 40px;
+    width: 180px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+.principal{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    height: 450px;
+    margin: 0 auto;
+    box-shadow: 5px -5px 10px black;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.segunda > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    color: white;
+    text-shadow: 2px -2px 10px white;
+}
+.log{
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: auto;
+}
+.log > input{
+    padding-left: 10px;
+    background: rgba(226, 226, 226, 0.9);
+    border-radius: 12px;
+    height: 60px;
+    font-size: 15px;
+    box-shadow: 2px -2px 10px white;
+    border: none;
+}
+.log > a{
+    background: var(--botao);
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 15px 90px;
+    transition: 500ms;
+    text-shadow: 1px -1px 5px black;
+}
+.log > a:hover{
+    padding: 12px 60px;
+    font-size: 25px;
+    transition: 500ms;
+    text-shadow: 1px -1px 5px rgb(0, 0, 0);
+}
+.senha > input{
+    padding-left: 10px;
+    background: rgba(226, 226, 226, 0.9);
+    border-radius: 12px;
+    height: 60px;
+    font-size: 15px;
+    box-shadow: 2px -2px 10px white;
+    border: none;
+}
+.senha{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: 20px auto;
+}
+.senha > a{
+    text-decoration: none;
+    color: white;
+}
+.cad > a{
+    background: var(--botao);
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 15px 70px;
+    transition: 500ms;
+    text-shadow: 1px -1px 5px black;
+    box-shadow: 2px -2px 10px black;
+}
+.cad > a:hover{
+    padding: 12px 60px;
+    font-size: 25px;
+    text-shadow: 1px -1px 5px black;
+    transition: 500ms;
+    box-shadow: 2px -2px 10px black;
+}
+.cad{
+    text-align: center;
+    margin-top: 50px;
+}
+.cadastro > h2{
+    color: white;
+}
+.bao{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+.bao > input{
+    padding-left: 10px;
+    background-color: white;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    height: 60px;
+    font-size: 15px;
+    transition: 500px;
+    box-shadow: 2px -2px 10px white;
+    border: none;
+}
+.bao > input:focus{
+    color: white;
+    background-color: black;
+    transition: 500ms;
+}
+.tim{
+    margin-top: 60px;
+}
+.tim > a{
+    background: var(--botao);
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 15px 70px;
+    transition: 500ms;
+    text-shadow: 1px -1px 5px black;
+    box-shadow: 2px -2px 10px black;
+}
+.tim > a:hover{
+    padding: 12px 60px;
+    font-size: 25px;
+    text-shadow: 1px -1px 5px black;
+    transition: 500ms;
+    box-shadow: 2px -2px 10px black;
+}
+.termo > h2{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
