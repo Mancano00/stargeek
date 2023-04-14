@@ -14,6 +14,8 @@ body{
     padding: 60px;
 }
 header{
+    margin: auto;
+    align-items: center;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -38,18 +40,23 @@ img{
     height: 60px;
     background-repeat: no-repeat;
 }
-.fim > p{
+.fim > a{
     color: white;
     margin-right: 15px;
     font-size: 20px;
     font-size: 25px;
     font-family:'Courier New', Courier, monospace;
+    text-decoration:underline;
     transition: 500ms;
 }
-.fim > p:hover{
+.fim > a:hover{
     font-size: 30px;
     transition: 500ms;
     text-shadow: 2px 2px 2px var(--roxo);
+    background: var(--botao);
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 10px;
 }
 .fim{
     margin: 0 auto;
@@ -80,41 +87,21 @@ img{
     display: flex;
     overflow: scroll;
 }
-.sabor > img{
-    width: 100%;
-    height: 100;
-    border-radius: 20px;
-}
 .acessorios::-webkit-scrollbar {
     display: none;
 }
-.nome {
-    color: white;
-    text-shadow: 2px 2px 3px black;
-}
-.preco {
-    margin: 10px;
-    background: var(--roxo);
-    border-radius: 10px;
-    border: 1px;
-    padding: 7px;
-    box-shadow: 1px 1px 5px black;
-}.sabor{
-    margin: 10px;
-    background: linear-gradient(to top-right, black, rgb(0, 0, 255));
-    max-width: 500px;
-    min-width: 250px;
-    box-shadow: 1px 1px 5px black;
-    border-radius: 20px;
-}
 .produtos > h2{
     color: white;
+    text-align: left;
 }
 .mage {
     width: 100%;
-    height: 70%;
+    height: 50%;
+    margin: 10px;
 }
 .mage > img {
-    width: 100%;
-    height: 70%;
+    width: 200px;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px white;
 }
