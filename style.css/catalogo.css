@@ -105,3 +105,21 @@ img{
     border-radius: 20px;
     box-shadow: 3px 3px 5px white;
 }
+.Rodape {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0px -3px 10px rgb(255, 255, 255);
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social > ul > li {
+    list-style: none;
+}
+.social > ul > li > a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
