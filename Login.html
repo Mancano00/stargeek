@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarGeek</title>
     <link rel="stylesheet" href="style.css/CSS.css">
+    <script src="JavaCadastro.js"></script>
 </head>
 <body>
     <header>
@@ -13,23 +14,23 @@
             <img src="./img/logo.png">
         </div>
         <div>
-            <a href="index.html">Voltar</a>
+            <button onclick="Voltar()">Voltar</button>
         </div>
     </header>
     <div class="principal">
         <div class="segunda">
             <h1>Entrar</h1>
             <div class="log">
-                <input type="email" placeholder="Email ou número de telefone">
+                <input id="usuario" type="email" placeholder="Email ou número de telefone">
             </div>
             <div class="senha">
-                <input type="password" placeholder="Senha">
+                <input id="senha" type="password" placeholder="Senha">
                 <br>
                 <a href="#">Precisa de ajuda?</a>
             </div>
             <br>
             <div class="log">
-                <a href="loja.html">Entrar</a>
+                <button onclick="Entrar()">Entrar</button>
             </div>
         </div>
     </div>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarGeek</title>
     <link rel="stylesheet" href="style.css/CSS.css">
+    <script src="JavaCadastro.js"></script>
 </head>
 <body>
     <div>
@@ -14,18 +15,17 @@
                 <img src="./img/logo.png">
             </div>
             <div>
-                <a href="index.html">Voltar</a>
+                <button onclick="Voltar()">Voltar</button>
             </div>
         </header>
         <div class="cadastro">
             <h2>Digite seus dados</h2>
             <br><br>
             <div class="bao">
-                <input type="email" placeholder="Email"><br>
-                <input type="email" placeholder="Nome Completo"><br>
-                <input type="email" placeholder="Data de Nascimento"><br>
-                <input type="password" placeholder="Senha"><br>
-                <input type="password" placeholder="Confirmar Senha">
+                <input id="usuario" type="email" placeholder="Email"><br>
+                <input id="nome" type="email" placeholder="Nome Completo"><br>
+                <input id="senha" type="password" placeholder="Senha"><br>
+                <input id="confsenha" type="password" placeholder="Confirmar Senha">
             </div>
         </div>
         <br>
@@ -33,8 +33,9 @@
             <h2>Termo de Uso</h2>
         </div>
         <div class="tim">
-            <a href="loja.html">Confirmar</a>
+            <button onclick="Cadastrar()">Confirmar</button>
         </div>
+        
     </div>
 </body>
 </html>
